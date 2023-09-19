@@ -1,0 +1,16 @@
+.container {
+    width: 100%;
+  }
+  
+  .left-div {
+    width: 50%; /* Divise l'espace en deux */
+    float: left; /* Fait flotter la div à gauche */
+    box-sizing: border-box; /* Pour inclure les marges et les bordures dans la largeur */
+  }
+  
+  .right-div {
+    width: 50%; /* Divise l'espace en deux */
+    float: left; /* Fait flotter la div à gauche */
+    box-sizing: border-box; /* Pour inclure les marges et les bordures dans la largeur */
+  }
+  

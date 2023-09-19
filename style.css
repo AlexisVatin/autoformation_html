@@ -3,6 +3,28 @@ body {
 font-family: 'Roboto', sans-serif;
 }
 
+.container {
+    width: 100%;
+  }
+  
+.left-div {
+    width: 25%; /* Divise l'espace en deux */
+    float: left; /* Fait flotter la div à gauche */
+    box-sizing: border-box; /* Pour inclure les marges et les bordures dans la largeur */
+}
+  
+.right-div {
+    width: 75%; /* Divise l'espace en deux */
+    float: left; /* Fait flotter la div à gauche */
+    box-sizing: border-box; /* Pour inclure les marges et les bordures dans la largeur */
+}
+  
+.center{
+        width: 80%; /* Largeur de la div (80% de la largeur de la page) */
+        margin-left: 10%; /* Marge de 10% à gauche */
+        margin-right: 10%; /* Marge de 10% à droite */      
+}
+
 img.profil {
     width: 10em;
 }
@@ -11,18 +33,26 @@ img.profil {
     background-color:#194682 ;
     color: white;
 }
+.bandeauxD {
+    background-color:white;
+    width: 20%;
+}
 
 
+div.bandeauxD div.bandeauxG{
+ display: flex;
+ flex-wrap: wrap;
+}
 ul {
     list-style-type: none;
     
+}
+li.para {
+    list-style-type:disc;
 }
 
 span.date{
     color:#224d86 ;
 }
 
-.bandeauxD {
-    background-color:white;
-    width: 20%;
-}
+
