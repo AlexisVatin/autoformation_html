@@ -1,52 +1,54 @@
+.container {
+    display: flex; /* Utilise Flexbox */
+}
 body {
-    
-font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;/* Police d'ecriture */
+    text-align: justify; /* texte justifié */
 }
 
-.container {
-    width: 100%;
-  }
-  
-.left-div {
-    width: 25%; /* Divise l'espace en deux */
-    float: left; /* Fait flotter la div à gauche */
-    box-sizing: border-box; /* Pour inclure les marges et les bordures dans la largeur */
-}
-  
-.right-div {
-    width: 75%; /* Divise l'espace en deux */
-    float: left; /* Fait flotter la div à gauche */
-    box-sizing: border-box; /* Pour inclure les marges et les bordures dans la largeur */
-}
-  
 .center{
-        width: 80%; /* Largeur de la div (80% de la largeur de la page) */
-        margin-left: 10%; /* Marge de 10% à gauche */
-        margin-right: 10%; /* Marge de 10% à droite */      
+    width: 60%; /* Largeur de la div (80% de la largeur de la page) */
+    margin-left: 20%; /* Marge de 10% à gauche */
+    margin-right: 20%; /* Marge de 10% à droite */      
+} 
+
+.left-div, .right-div {
+    border: 1px solid #ccc; /* Facultatif : ajoute une bordure pour visualiser les divs */
+    padding: 10px; /* Facultatif : ajoute de l'espace à l'intérieur des divs */
+}
+
+.right-div {   
+    width: 60%; /* Divise l'espace en deux */
+}
+
+.left-div {
+    background-color: #194682;
+    color: white;
+    width: 30%; /* Réduisez la largeur à 15% */
+    display: flex; /* Utilisez Flexbox */
+    flex-direction: column; /* Alignez le contenu verticalement */
+    justify-content: space-between; /* Espacez le contenu verticalement pour qu'il prenne toute la place */
+    padding: 10px; /* Ajoutez de l'espace intérieur pour éviter le débordement du contenu */
 }
 
 img.profil {
     width: 10em;
-}
-
-.bandeauxG {
-    background-color:#194682 ;
-    color: white;
-}
-.bandeauxD {
-    background-color:white;
-    width: 20%;
+    border-radius: 50%; /* Rend l'image arrondie en utilisant un rayon de 50% */
 }
 
 
-div.bandeauxD div.bandeauxG{
- display: flex;
- flex-wrap: wrap;
-}
-ul {
+li {
     list-style-type: none;
-    
+    margin-left: 1em;
 }
+
+div.photo{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
 li.para {
     list-style-type:disc;
 }
@@ -56,3 +58,29 @@ span.date{
 }
 
 
+a:link {
+    color: black; /* Couleur du texte pour les liens non visités */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+/* Style des liens visités */
+a:visited {
+    color: black; /* Couleur du texte pour les liens visités */
+    text-decoration: none; /* Supprime le soulignement */
+}
+
+a:hover {
+    color: #194682; /* Couleur du texte au survol */
+    text-decoration:overline /* Optionnel : Ajoute un soulignement au survol */
+}
+
+
+/* Mettre en surbrillance les liens au survol de la souris */
+a:hover {
+   
+    background-color: grey; /* Couleur de surbrillance au survol */
+}
+
+a, i{
+    font-size: 1.5em;
+}
