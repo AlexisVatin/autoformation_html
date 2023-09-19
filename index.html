@@ -3,28 +3,33 @@
 
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="style.css">
         <title>Accueil Alexis Vatin</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c159095049.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <h1>Page de presentation</h1>
         <p>Inserer le cv ici</p>
 
-        <!-- bande gauche photo + contact + compétences + bandeau bleu-->
+        <i class="fa-solid fa-house"></i><a href="index.html"> Accueil</a>
+        <i class="fa-solid fa-circle-info"></i></i><a href="pages/apropos.html"></i> A propos</a>
+       
         <h1>Contact et compétences</h1>
+        
+        <!--  Ceci represente la partie "bleue" du CV. C'est a dire avec le contact, les compétences et les langues -->
         <div class="bandeauxG">
             <ul class="photo">
-                <li>photo</li>
+                <li><a href="../img/profil.jpg" target="_blank"><img src="img/profil.jpg" class="profil"  title="Photo de profil" alt="Photo de profil" /></a><br></li>
                 <li>Alexis Vatin</li>
                 <li>Consultant junior</li>
             </ul>
             <ul class="contact">
                 <li><strong>Contact</strong></li>
-                <li>+33 6 52 66 27 15</li>
-                <li>alexis.vatin1@gmail.com</li>
-                <li>8 chemin Gilles Borel <!--<br>-->Aix-en-Provence</li>
-                <li>23 ans</li>
-                <li>Permis B</li>
+                <li><i class="fa-solid fa-phone"></i> +33 6 52 66 27 15</li>
+                <li><i class="fa-solid fa-envelope"></i> alexis.vatin1@gmail.com</li>
+                <li><i class="fa-solid fa-location-dot"></i> 8 chemin Gilles Borel <!--<br>-->Aix-en-Provence</li>
+                <li><i class="fa-regular fa-calendar"></i> 23 ans</li>
+                <li><i class="fa-solid fa-car"></i> Permis B</li>
             </ul>
             <ul class="compétences">
                 <li><strong>Compétences</strong></li>
@@ -45,8 +50,45 @@
                 <li>Voyages</li>
             </ul>
         </div>
+        <!--  Ceci represente la partie "blanche" du CV. C'est a dire avec les informations sur les experiences et les formations -->
+        <div class="bandeauD">
+            <ul class="profil">
+                <h2>Profil</h2>
+                <p>Actuellement en Master 2 Management de l'innovation et des
+                    systèmes d'information à l'université d'Aix-en-Provence. Je suis un
+                    étudiant autonome, curieux et impliqué dans les travaux que je
+                    mène. En alternance chez KPC pour l'année 2023-2024 en tant
+                    que consultant junior chez le client Airbus Helicopters.</p>
+            </ul>
+            <ul class="experience">
+                <h2>Expériences professionnelles</h2>
+                <ul class="KCP">
+                    <li><strong>Key Performance Consulting</strong> | Consultant Junior</li>
+                    <li><span class="date">avril 2023 - juin 2023</span></li>
+                    <li></li>
+                </ul>
+            </ul>
+            <ul class="compétences">
+                <li><strong>Compétences</strong></li>
+                <li>SAP BW</li>
+                <li>Bases de données</li>
+                <li>Communication professionnelle</li>
+                <li>Gestion de projet</li>
+                <li>Synthèse rédactionnelle</li>
+            </ul>
+            <ul class="langues">
+                <li><strong>Langues</strong></li>
+                <li>Français Natif</li>
+                <li>Anglais TOEIC 800 - B2</li>
+            </ul>
+            <ul class="interets">
+                <li><strong>Interet</strong></li>
+                <li>Volley / Judo / Handball </li>
+                <li>Voyages</li>
+            </ul>
+        </div>
+        
 
-        <a href="pages/apropos.html">A propos</a>
     </body>
 
 

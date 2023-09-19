@@ -1,3 +1,28 @@
+body {
+    
+font-family: 'Roboto', sans-serif;
+}
+
 img.profil {
-    width: 150px;
+    width: 10em;
+}
+
+.bandeauxG {
+    background-color:#194682 ;
+    color: white;
+}
+
+
+ul {
+    list-style-type: none;
+    
+}
+
+span.date{
+    color:#224d86 ;
+}
+
+.bandeauxD {
+    background-color:white;
+    width: 20%;
 }
