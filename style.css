@@ -80,5 +80,5 @@ a:hover {
 
 a,
 i {
-  font-size: 1.5em;
+  font-size: 1.5em; /* Définit la taille du texte des a et i */
 }
