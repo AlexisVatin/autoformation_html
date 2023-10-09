@@ -6,6 +6,10 @@ body {
   text-align: justify; /* texte justifié */
 }
 
+h1 {
+  text-align: center; /* Alignement du texte au centre */
+}
+
 .center {
   width: 60%; /* Largeur de la div (80% de la largeur de la page) */
   margin-left: 20%; /* Marge de 10% à gauche */
@@ -38,23 +42,23 @@ img.profil {
 }
 
 li {
-  list-style-type: none;
+  list-style-type: none; /* Suppression des points dans la liste */
   margin-left: 1em;
 }
 
 div.photo {
-  list-style-type: none;
+  list-style-type: none; /* Suppression des points de la liste */
   margin: 0;
   padding: 0;
-  text-align: center;
+  text-align: center; /* Alignement du texte au centre */
 }
 
 li.para {
-  list-style-type: disc;
+  list-style-type: disc; /* Ajout des points dans la liste */
 }
 
 span.date {
-  color: #224d86;
+  color: #224d86; /* Couleur de texte bleu pour la date*/
 }
 
 a:link {
@@ -62,7 +66,6 @@ a:link {
   text-decoration: none; /* Supprime le soulignement */
 }
 
-/* Style des liens visités */
 a:visited {
   color: black; /* Couleur du texte pour les liens visités */
   text-decoration: none; /* Supprime le soulignement */
@@ -73,7 +76,6 @@ a:hover {
   text-decoration: overline; /* Optionnel : Ajoute un soulignement au survol */
 }
 
-/* Mettre en surbrillance les liens au survol de la souris */
 a:hover {
   background-color: grey; /* Couleur de surbrillance au survol */
 }
