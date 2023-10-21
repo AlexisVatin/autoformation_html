@@ -1,6 +1,7 @@
 .container {
   display: flex; /* Utilise Flexbox */
 }
+
 body {
   font-family: "Roboto", sans-serif; /* Police d'ecriture */
   text-align: justify; /* texte justifié */
